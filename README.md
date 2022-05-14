@@ -1,38 +1,14 @@
-css
-https://www.tailwindcss.cn/docs
+1. git clone git@github.com:Marchccc/solana-example-react.git
 
-前端用
-https://github.com/DonnySolana/solana-dapp-next
-/.
+2. cd solana-example-react && yarn
 
-后端参考
-https://github.com/lorisleiva/solana-twitter
-https://github.com/project-serum/anchor  这个里面有很多example，有rust+client的可以参考
-教程：https://lorisleiva.com/
+3. yarn dev
 
-../solana-aoi/
+According to the result prompt, open localhost:3000 or localhost:3001 in the browser
+
+And Connect the wallet（i use Phantom）, open the browser console, and click the Test button. 
 
 
-接下来：
-用前端调用自己发布在devnet的合约的方法。
+My situation will be reproduced. When the mintNft method is called on the front end, an error will be returned: AnchorError occurred. Error Code: InstructionFallbackNotFound. Error Number: 101. Error Message : Fallback functions are not supported.
 
-发布到 http://solana.aoimeta.com/
-
-
-有时间看下这个，这个是solana的nft store
-https://github.com/Aurory-Game/comptoir
-
-灵感：
-商城系统的积分插件？
-
-devnet
-余额 1.93189 SOL
-一条信息上链后：
-余额 1.92141 SOL
-
-
-
-接下来：
-先找个其他的nft store合约试一下，看看人家的费用是多少，如果都差不多，那就不研究费用怎么减少了
-
-
+I'm a newbie and this is totally bugging me, thanks for your time
